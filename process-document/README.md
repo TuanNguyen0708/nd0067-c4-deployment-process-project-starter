@@ -14,12 +14,12 @@ The app is accessible via [this link](http://web-udagram.s3-website-us-east-1.am
 I linked the Udagram project in github to circleci and added the `config.yml` file of the circleci containing all the orbs, jobs and workflows for running the pipeline automatically after every commit on the master branch.
 The `config.yml` file that ensures the build occurs in a logical sequence including Comments to explain the flow of the pipeline, is present [here](./process-document/config.yml).
 For accessing my github repository which is linked to circleci to check the structure of the project and the scripts added, [click here](https://github.com/TuanNguyen0708/nd0067-c4-deployment-process-project-starter)
-A screenshot of the last build shows that my CircleCi account is authorized to access my repo on Github and is detecting changes each time I am pushing to the master branch ![lives here](./pipeline-process/circleci/CI_CD-60-khalidMesbah-udagram.png).
+A screenshot of the last build shows that my CircleCi account is authorized to access my repo on Github and is detecting changes each time I am pushing to the master branch ![lives here](./pipeline-process/circleci/deploy-24-TuanNguyen0708-nd0067-c4-deployment-process-project-starter.png).
 The status badge on circleci indicating the current state of the master branch build
-All the secrets found in the application are configured inside CircleCi and passed to the production application. A screenshot of the configuration screen is present ![here](./pipeline-process/circleci/Environment-Variables-udagram.png) to show where secrets were added.
+All the secrets found in the application are configured inside CircleCi and passed to the production application. A screenshot of the configuration screen is present ![here](./pipeline-process/circleci/Environment-Variables-nd0067-c4-deployment-process-project-starter.png) to show where secrets were added.
 
 ## Diagrams
-The submission contains a simple diagram giving a high-level [overview of the infrastructure](./AWS/AWS-diagram.png) and another diagram showing the [overview of the pipeline](./process-document/pipeline-process/cicleci-pipe-diagram.png). The diagram Includes the different AWS services used for hosting the DB, API and
+The submission contains a simple diagram giving a high-level ![overview of the infrastructure](./AWS/AWS-diagram.png) and another diagram showing the [overview of the pipeline](.pipeline-process/cicleci-pipe-diagram.png). The diagram Includes the different AWS services used for hosting the DB, API and
 UI, A representation of the communication between the services is present in the diagrams (ex: arrows between services).
 
 ## Pipeline Process Inside Circleci.
