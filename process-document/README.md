@@ -27,7 +27,7 @@ The status badge on circleci indicating the current state of the master branch b
 All the secrets found in the application are configured inside CircleCi and passed to the production application. A screenshot of the configuration screen is present ![here](./pipeline-process/circleci/Environment-Variables-nd0067-c4-deployment-process-project-starter.png) to show where secrets were added.
 
 ## Diagrams
-The submission contains a simple diagram giving a high-level ![overview of the infrastructure](./AWS/AWS-diagram.png) and another diagram showing the [overview of the pipeline](.pipeline-process/cicleci-pipe-diagram.png). The diagram Includes the different AWS services used for hosting the DB, API and
+The submission contains a simple diagram giving a high-level ![overview of the infrastructure](./AWS/AWS-diagram.png) and another diagram showing the [overview of the pipeline](./pipeline-process/cicleci-pipe-diagram.png). The diagram Includes the different AWS services used for hosting the DB, API and
 UI, A representation of the communication between the services is present in the diagrams (ex: arrows between services).
 
 ## Pipeline Process Inside Circleci.
