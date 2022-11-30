@@ -7,6 +7,14 @@ A central configuration file is used in order to set the environment variables a
 No authentication strings are hard-coded in the source code.
 A project-level package.json file contains All the necessary scripts for installing, building, testing, deploying both the frontend and the backend is added and it lives [here](../package.json).
 Screenshots of the AWS console indicate that RDS, EB and S3 are properly set up are available here [here](./AWS/).
+* EB:
+![EB 1](./EB/EB-Application.png)
+![EB 2](./EB/EB-environnements.png)
+
+
+![RDS 1](./RDS/RDS-Management-Console1.png)
+![RDS 2](./RDS/RDS-Management-Console2.png)
+![S3 1](./S3/S3-Management-Console.png)
 The app is accessible via [this link](http://web-udagram.s3-website-us-east-1.amazonaws.com).
 
 
